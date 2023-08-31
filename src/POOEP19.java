@@ -8,7 +8,7 @@ public class POOEP19 {
         //Imprimir, recibir por teclado y 
         //asignar la variable lado del triangulo
         System.out.println("Ingrese el"+
-        " lado del triangulo equilatero");
+        " lado del triangulo equilatero:");
         Scanner entrada=new Scanner(System.in);
         lado=entrada.nextDouble();
         entrada.close();
@@ -20,7 +20,7 @@ public class POOEP19 {
         perimetro=3*lado;
 
         //Calculo del area
-        area=lado*lado/2;
+        area=altura*lado/2;
 
         //Imprimir las salidas
         System.out.println("El triangulo rectangulo de lado: "+
