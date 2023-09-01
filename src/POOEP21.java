@@ -10,15 +10,15 @@ public class POOEP21{
         //asignar la variable lado del triangulo
         System.out.println("Ingrese el lado 1 del triangulo:");
         Scanner entrada=new Scanner(System.in);
-        lado1=entrada.nextDouble();
+        lado1=entrada.nextDouble();//lado1
         entrada.nextLine();
 
         System.out.println("Ingrese el lado 2 del triangulo:");
-        lado2=entrada.nextDouble();
+        lado2=entrada.nextDouble();//lado 2 del triangulo
         entrada.nextLine();
 
         System.out.println("Ingrese el lado 3 del triangulo:");
-        lado3=entrada.nextDouble();
+        lado3=entrada.nextDouble();//lado 3 del triangulo
         entrada.close();
 
         //calcular el perimetro del triangulo

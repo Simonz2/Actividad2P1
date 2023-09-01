@@ -14,7 +14,7 @@ public class POOEP18 {
         //imprimir y  recibir por teclado el codigo del empleado
         System.out.println("Ingrese el codigo del empleado:");
         Scanner entrada = new Scanner(System.in);
-        ce=entrada.nextInt();
+        ce=entrada.nextInt();//codigo del empleado
 
         System.out.println("Ingrese el nombre del empleado:");
         entrada.nextLine();
