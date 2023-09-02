@@ -45,10 +45,5 @@ public class POOER10 {
             ni+" y nombre: \n"+name+" debe pagar: "+
             pm);
 
-
-
-
-
-
     }
 }
